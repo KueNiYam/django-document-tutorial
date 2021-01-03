@@ -1,0 +1,11 @@
+GET http://localhost:8000/api
+
+###
+GET http://localhost:8000/api/users
+Cookie: sessionid=qwd9g3qwv957t5sg0uspfxlodfnmlq1w
+
+###
+GET http://localhost:8000/api/users
+Authorization: Basic admin abcd1234
+
+###
